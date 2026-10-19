@@ -1,0 +1,18 @@
+{
+  "name": "today-todo-desktop",
+  "productName": "今日事",
+  "version": "2.0.0",
+  "description": "今日事 —— 本机待办清单桌面版（Electron）",
+  "main": "main.js",
+  "author": "mikasa",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/merge.test.mjs && node test/smoke.mjs",
+    "test:unit": "node test/merge.test.mjs",
+    "test:smoke": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}
